@@ -1,0 +1,55 @@
+body {
+  background-color: #fcfcfc;
+  min-height: 100vh; }
+
+#home h2 {
+  margin: 20px 0; }
+#home .comment {
+  padding: 20px;
+  background-color: #eee;
+  width: 80%;
+  float: left; }
+  #home .comment .the-comment {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px; }
+  #home .comment .author-and-date {
+    float: right;
+    font-style: italic;
+    font-weight: bold; }
+#home .delete-comment {
+  margin-right: 10px; }
+#home .delete-topic {
+  float: left;
+  margin: 50px 20px;
+  padding: 5px 10px;
+  background-color: #ccc;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+#home .article {
+  margin: 0 0 20px 0; }
+#home .comment-form {
+  width: 80%;
+  margin: 0 auto; }
+#home .comment-response-form {
+  margin: 20px 0 20px 50px;
+  font-size: 10px; }
+  #home .comment-response-form h6 {
+    margin-bottom: -20px;
+    margin-top: 60px; }
+  #home .comment-response-form textarea, #home .comment-response-form #author-response {
+    font-size: 10px;
+    margin-bottom: -10px; }
+#home .responses {
+  width: 70%;
+  font-size: 10px;
+  background-color: #ddd;
+  margin-left: 50px;
+  padding: 10px; }
+
+.hide {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
