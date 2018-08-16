@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 13, 2018 at 03:28 PM
+-- Generation Time: Aug 16, 2018 at 10:31 AM
 -- Server version: 5.6.38
 -- PHP Version: 7.1.12
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `Webnode_discussion`
+-- Database: `discussion`
 --
 
 -- --------------------------------------------------------
@@ -134,7 +134,7 @@ ALTER TABLE `topics`
 -- AUTO_INCREMENT for table `commentResponses`
 --
 ALTER TABLE `commentResponses`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `loginAdmin`
@@ -152,7 +152,7 @@ ALTER TABLE `topicComments`
 -- AUTO_INCREMENT for table `topics`
 --
 ALTER TABLE `topics`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

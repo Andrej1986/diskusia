@@ -19,7 +19,7 @@ class Config
 	 * Database name
 	 * @var string
 	 */
-	const DB_NAME = 'Webnode_discussion';
+	const DB_NAME = 'discussion';
 
 	/**
 	 * Database user
